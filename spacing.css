@@ -40,7 +40,7 @@
   padding-left: 5px !important;
 }
 .p-r-xs {
-  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
 .p-h-sm {
   padding-left: 10px !important;
@@ -60,7 +60,7 @@
   padding-left: 10px !important;
 }
 .p-r-sm {
-  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 .p-h-md {
   padding-left: 20px !important;
@@ -100,7 +100,7 @@
   padding-left: 30px !important;
 }
 .p-r-lg {
-  padding-left: 30px !important;
+  padding-right: 30px !important;
 }
 /** margin **/
 .no-m {
@@ -144,7 +144,7 @@
   margin-left: 5px !important;
 }
 .m-r-xs {
-  margin-left: 5px !important;
+  margin-right: 5px !important;
 }
 .m-h-sm {
   margin-left: 10px !important;
@@ -164,7 +164,7 @@
   margin-left: 10px !important;
 }
 .m-r-sm {
-  margin-left: 10px !important;
+  margin-right: 10px !important;
 }
 .m-h-md {
   margin-left: 20px !important;
@@ -184,7 +184,7 @@
   margin-left: 20px !important;
 }
 .m-r-md {
-  margin-left: 20px !important;
+  margin-right: 20px !important;
 }
 .m-h-lg {
   margin-left: 30px !important;
@@ -204,7 +204,7 @@
   margin-left: 30px !important;
 }
 .m-r-lg {
-  margin-left: 30px !important;
+  margin-right: 30px !important;
 }
 /** margin inverse **/
 .m-h-xs-inv {
@@ -225,7 +225,7 @@
   margin-left: -5px !important;
 }
 .m-r-xs-inv {
-  margin-left: 5px !important;
+  margin-right: 5px !important;
 }
 .m-h-sm-inv {
   margin-left: -10px !important;
@@ -245,7 +245,7 @@
   margin-left: -10px !important;
 }
 .m-r-sm-inv {
-  margin-left: -10px !important;
+  margin-right: -10px !important;
 }
 .m-h-md-inv {
   margin-left: -20px !important;
@@ -265,7 +265,7 @@
   margin-left: -20px !important;
 }
 .m-r-md-inv {
-  margin-left: -20px !important;
+  margin-right: -20px !important;
 }
 .m-h-lg-inv {
   margin-left: -30px !important;
@@ -285,9 +285,9 @@
   margin-left: -30px !important;
 }
 .m-r-lg-inv {
-  margin-left: -30px !important;
+  margin-right: -30px !important;
 }
 /** width **/
 w-full {
-  width: 100% !important;
+  width: 100%;
 }
