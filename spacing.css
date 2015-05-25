@@ -22,6 +22,9 @@
 .no-p-r {
   padding-right: 0px !important;
 }
+.p-xs {
+  padding: 5px !important;
+}
 .p-h-xs {
   padding-left: 5px !important;
   padding-right: 5px !important;
@@ -41,6 +44,9 @@
 }
 .p-r-xs {
   padding-right: 5px !important;
+}
+.p-sm {
+  padding: 10px !important;
 }
 .p-h-sm {
   padding-left: 10px !important;
@@ -62,6 +68,9 @@
 .p-r-sm {
   padding-right: 10px !important;
 }
+.p-md {
+  padding: 20px !important;
+}
 .p-h-md {
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -81,6 +90,9 @@
 }
 .p-r-md {
   padding-left: 20px !important;
+}
+.p-lg {
+  padding: 30px !important;
 }
 .p-h-lg {
   padding-left: 30px !important;
@@ -126,6 +138,9 @@
 .no-m-r {
   margin-right: 0px !important;
 }
+.m-xs {
+  margin: 5px !important;
+}
 .m-h-xs {
   margin-left: 5px !important;
   margin-right: 5px !important;
@@ -145,6 +160,9 @@
 }
 .m-r-xs {
   margin-right: 5px !important;
+}
+.m-sm {
+  margin: 10px !important;
 }
 .m-h-sm {
   margin-left: 10px !important;
@@ -166,6 +184,9 @@
 .m-r-sm {
   margin-right: 10px !important;
 }
+.m-md {
+  margin: 20px !important;
+}
 .m-h-md {
   margin-left: 20px !important;
   margin-right: 20px !important;
@@ -185,6 +206,9 @@
 }
 .m-r-md {
   margin-right: 20px !important;
+}
+.m-lg {
+  margin: 30px !important;
 }
 .m-h-lg {
   margin-left: 30px !important;
@@ -207,6 +231,9 @@
   margin-right: 30px !important;
 }
 /** margin inverse **/
+.m-xs-inv {
+  margin: -5px !important;
+}
 .m-h-xs-inv {
   margin-left: -5px !important;
   margin-right: -5px !important;
@@ -226,6 +253,9 @@
 }
 .m-r-xs-inv {
   margin-right: 5px !important;
+}
+.m-sm-inv {
+  margin: -10px !important;
 }
 .m-h-sm-inv {
   margin-left: -10px !important;
@@ -247,6 +277,9 @@
 .m-r-sm-inv {
   margin-right: -10px !important;
 }
+.m-md-inv {
+  margin: -20px !important;
+}
 .m-h-md-inv {
   margin-left: -20px !important;
   margin-right: -20px !important;
@@ -266,6 +299,9 @@
 }
 .m-r-md-inv {
   margin-right: -20px !important;
+}
+.m-lg-inv {
+  margin: -30px !important;
 }
 .m-h-lg-inv {
   margin-left: -30px !important;
