@@ -1,5 +1,7 @@
 # Spacing-Classes
-Margin and Padding css helper classes.
-#Install
-via bower:x:
-$ bower install spacing-classes
+Margin and padding css helper classes.
+## Install
+via bower:
+```bash
+$ bower install spacing-classes --save
+```
