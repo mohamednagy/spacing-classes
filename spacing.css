@@ -327,3 +327,31 @@
 w-full {
   width: 100%;
 }
+/** borders **/
+.no-border {
+  border: 0px !important;
+}
+.no-border-t {
+  border-top: 0px !important;
+}
+.no-border-r {
+  border-top: 0px !important;
+}
+.no-border-l {
+  border-top: 0px !important;
+}
+.no-border-b {
+  border-top: 0px !important;
+}
+.border-xs {
+  border-width: 3px !important;
+}
+.border-sm {
+  border-width: 3px !important;
+}
+.border-md {
+  border-width: 3px !important;
+}
+.border-lg {
+  border-width: 3px !important;
+}
