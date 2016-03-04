@@ -7,7 +7,8 @@
   ],
   "main": "spacing.css",
   "keywords": [
-    "css"
+    "css",
+    "less"
   ],
   "license": "MIT",
   "ignore": [
@@ -16,5 +17,7 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "description": "",
+  "moduleType": []
 }
