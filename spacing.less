@@ -1,18 +1,17 @@
 @import "mixins/for";
 @dimensions: top, right, bottom, left;
-@interval: 5;
+@interval: 5px;
 @columns: 12;
-@unit: px !important;
 .padding(@size, @counter) when (@counter > 0) {
   .padding( @size, ( @counter - 1 ) );
   .p@{size}-@{counter} {
-    padding: @interval * @counter @unit;
+    padding: (@interval*@counter) !important;
   }
 }
 .margin(@size, @counter) when (@counter > 0) {
   .margin( @size, ( @counter - 1 ) );
   .m@{size}-@{counter} {
-    margin: @interval * @counter @unit;
+    margin: (@interval * @counter) !important;
   }
 }
 
@@ -35,10 +34,13 @@
     margin: 0px;
   }
   .no-p-lg{
-    padding: 0 @unit;
+    padding: 0px;
   }
   .no-m-lg{
-    margin: 0 @unit;
+    margin: 0px;
+  }
+  .no-broder-sm{
+    border: none;
   }
   .border(-sm);
 }
@@ -47,10 +49,13 @@
   .padding(-md, @columns);
   .margin(-md, @columns);
   .no-p-md{
-    padding: 0 @unit;
+    padding: 0px;
   }
   .no-m-md{
-    margin: 0 @unit;
+    margin: 0px;
+  }
+  .no-broder-md{
+    border: none;
   }
   .border(-md);
 }
@@ -59,10 +64,13 @@
   .padding(-lg, @columns);
   .margin(-lg, @columns);
   .no-p-lg{
-    padding: 0 @unit;
+    padding: 0px;
   }
   .no-m-lg{
-    margin: 0 @unit;
+    margin: 0px;
+  }
+  .no-broder-lg{
+    border: none;
   }
   .border(-lg);
 }
@@ -70,10 +78,13 @@
 .padding(~'', @columns);
 .margin(~'', @columns);
 .no-p{
-  padding: 0 @unit;
+  padding: 0px;
 }
 .no-m{
-  margin: 0 @unit;
+  margin: 0px;
+}
+.no-broder{
+  border: none;
 }
 .no-border-top {
   border-top: none;
